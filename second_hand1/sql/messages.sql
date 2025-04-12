@@ -1,0 +1,9 @@
+CREATE TABLE messages (
+	message_id INT PRIMARY KEY AUTO_INCREMENT COMMENT '消息ID',
+	sender_id INT COMMENT '发送者ID',
+	receiver_id INT COMMENT '接收者ID',
+	content TEXT NOT NULL COMMENT '消息内容',
+	status ENUM('unread', 'read') DEFAULT 'unread' COMMENT '消息状态',
+	create_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
+	update_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '修改时间'
+) COMMENT '用户消息表';

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.secondhand1.dao.CategoryMapper">
+<select id="selectByName" parameterType="java.lang.String" resultType="com.secondhand1.pojo.domain.CategoryDO">
+        SELECT category_id, name, description, create_by, create_time, update_by, update_time 
+        FROM categories 
+        WHERE name = #{name}
+    </select>
+<delete id="deleteById" parameterType="java.lang.Integer">
+        DELETE FROM categories 
+        WHERE category_id = #{categoryId}
+    </delete>
+<insert id="insert" parameterType="com.secondhand1.pojo.domain.CategoryDO">
+        INSERT INTO categories (category_id,name, description, create_by, create_time, update_by, update_time)
+        VALUES (#{categoryId},#{name}, #{description}, #{createBy}, #{createTime}, #{updateBy}, #{updateTime})
+    </insert>
+<!--<select id="selectById" parameterType="java.lang.Integer" resultType="com.secondhand1.pojo.domain.CategoryDO">-->
+<!--        SELECT category_id, name, description, create_by, create_time, update_by, update_time -->
+<!--        FROM categories -->
+<!--        WHERE category_id = #{categoryId}-->
+<!--    </select>-->
+    <select id="selectById" parameterType="java.lang.Integer" resultType="com.secondhand1.pojo.domain.CategoryDO">
+        SELECT category_id, name, description, create_by, create_time, update_by, update_time
+        FROM categories
+        WHERE category_id = #{categoryId}
+    </select>
+<update id="updateById" parameterType="com.secondhand1.pojo.domain.CategoryDO">
+        UPDATE categories 
+        SET name = #{name}, description = #{description}, update_by = #{updateBy}, update_time = #{updateTime} 
+        WHERE category_id = #{categoryId}
+    </update>
+    <select id="selectAllCategories" resultType="com.secondhand1.pojo.domain.CategoryDO">
+        SELECT category_id, name, description, create_by, create_time, update_by, update_time
+        FROM categories
+    </select>
+</mapper>

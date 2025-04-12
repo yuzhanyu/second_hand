@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.secondhand1.dao.OrderItemMapper">
+
+    <insert id="insert" keyProperty="itemId" parameterType="com.secondhand1.pojo.domain.OrderItemDO" useGeneratedKeys="true">
+        INSERT INTO order_items (order_id, product_id, quantity, price, create_time, update_time)
+        VALUES (#{orderId}, #{productId}, #{quantity}, #{price}, #{createTime}, #{updateTime})
+    </insert>
+</mapper>

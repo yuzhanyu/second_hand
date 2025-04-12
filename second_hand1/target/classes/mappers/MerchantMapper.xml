@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.secondhand1.dao.MerchantMapper">
+<select id="selectByResetToken" parameterType="java.lang.String" resultType="com.secondhand1.pojo.domain.MerchantDO">
+        SELECT merchant_id, username, password_hash, email, phone, address, store_name, status, create_by, create_time, update_by, update_time, reset_token
+        FROM merchants
+        WHERE reset_token = #{resetToken}
+    </select>
+<select id="selectByUsernameOrEmail" parameterType="java.lang.String" resultType="com.secondhand1.pojo.domain.MerchantDO">
+        SELECT merchant_id, username, password_hash, email, phone, address, store_name, status, create_by, create_time, update_by, update_time, reset_token
+        FROM merchants
+        WHERE username = #{username}
+        OR email = #{email}
+    </select>
+<select id="isEmailUsedByOtherMerchant" parameterType="map" resultType="java.lang.Boolean">
+        SELECT IF(COUNT(*) &gt; 0, TRUE, FALSE) AS isUsed
+        FROM merchants
+        WHERE email = #{email}
+          AND merchant_id != #{merchantId}
+    </select>
+<insert id="insert" parameterType="com.secondhand1.pojo.domain.MerchantDO">
+        INSERT INTO merchants (username, password_hash, email, phone, address, store_name, status, create_by, create_time, update_by, update_time, reset_token)
+        VALUES (#{username}, #{passwordHash}, #{email}, #{phone}, #{address}, #{storeName}, #{status}, #{createBy}, #{createTime}, #{updateBy}, #{updateTime}, #{resetToken})
+    </insert>
+<select id="selectById" parameterType="java.lang.Integer" resultType="com.secondhand1.pojo.domain.MerchantDO">
+        SELECT merchant_id, username, password_hash, email, phone, address, store_name, status, create_by, create_time, update_by, update_time 
+        FROM merchants 
+        WHERE merchant_id = #{merchant_id}
+    </select>
+<update id="updateById" parameterType="com.secondhand1.pojo.domain.MerchantDO">
+        UPDATE merchants
+        SET password_hash = #{passwordHash}, phone = #{phone}, address = #{address}, store_name = #{storeName}, status = #{status}, update_by = #{updateBy}, update_time = #{updateTime}, reset_token = #{resetToken}
+        WHERE merchant_id = #{merchantId}
+    </update>
+    <update id="updateById1" parameterType="com.secondhand1.pojo.domain.MerchantDO">
+        UPDATE merchants
+        SET username = #{username}, phone = #{phone}, address = #{address}, store_name = #{storeName}, status = #{status}, update_by = #{updateBy}
+        WHERE merchant_id = #{merchantId}
+    </update>
+</mapper>

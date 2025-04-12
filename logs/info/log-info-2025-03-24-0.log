@@ -1,0 +1,271 @@
+2025-03-24 15:09:42.307 [background-preinit] INFO  o.h.v.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-03-24 15:09:42.382 [main] INFO  c.s.SecondHand1Application - Starting SecondHand1Application using Java 19.0.2 with PID 1368 (C:\Users\LENOVO\JavaProject1\second_hand\second_hand1\target\classes started by LENOVO in C:\Users\LENOVO\JavaProject1\second_hand)
+2025-03-24 15:09:42.384 [main] INFO  c.s.SecondHand1Application - No active profile set, falling back to 1 default profile: "default"
+2025-03-24 15:09:44.378 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-03-24 15:09:44.382 [main] INFO  o.a.c.c.AprLifecycleListener - An older version [1.3.1] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.5]
+2025-03-24 15:09:44.383 [main] INFO  o.a.c.c.AprLifecycleListener - Loaded Apache Tomcat Native library [1.3.1] using APR version [1.7.4].
+2025-03-24 15:09:44.390 [main] INFO  o.a.c.c.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2025-03-24 15:09:44.399 [main] INFO  o.a.c.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-03-24 15:09:44.403 [main] INFO  o.a.c.core.StandardService - Starting service [Tomcat]
+2025-03-24 15:09:44.403 [main] INFO  o.a.c.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2025-03-24 15:09:44.482 [main] INFO  o.a.c.c.C.[.[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-03-24 15:09:44.482 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2055 ms
+2025-03-24 15:09:44.927 [main] INFO  c.a.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-03-24 15:09:45.371 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2025-03-24 15:09:46.136 [main] INFO  o.s.b.a.e.w.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-03-24 15:09:46.199 [main] INFO  o.a.c.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-03-24 15:09:46.213 [main] INFO  c.a.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-03-24 15:09:46.219 [main] INFO  c.a.druid.pool.DruidDataSource - {dataSource-1} closed
+2025-03-24 15:09:46.244 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-03-24 15:10:52.582 [background-preinit] INFO  o.h.v.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-03-24 15:10:52.652 [main] INFO  c.s.SecondHand1Application - Starting SecondHand1Application using Java 19.0.2 with PID 18960 (C:\Users\LENOVO\JavaProject1\second_hand\second_hand1\target\classes started by LENOVO in C:\Users\LENOVO\JavaProject1\second_hand)
+2025-03-24 15:10:52.653 [main] INFO  c.s.SecondHand1Application - No active profile set, falling back to 1 default profile: "default"
+2025-03-24 15:10:54.706 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2025-03-24 15:10:54.709 [main] INFO  o.a.c.c.AprLifecycleListener - An older version [1.3.1] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.5]
+2025-03-24 15:10:54.709 [main] INFO  o.a.c.c.AprLifecycleListener - Loaded Apache Tomcat Native library [1.3.1] using APR version [1.7.4].
+2025-03-24 15:10:54.715 [main] INFO  o.a.c.c.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2025-03-24 15:10:54.724 [main] INFO  o.a.c.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2025-03-24 15:10:54.729 [main] INFO  o.a.c.core.StandardService - Starting service [Tomcat]
+2025-03-24 15:10:54.729 [main] INFO  o.a.c.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2025-03-24 15:10:54.812 [main] INFO  o.a.c.c.C.[.[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-03-24 15:10:54.813 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2107 ms
+2025-03-24 15:10:55.186 [main] INFO  c.a.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-03-24 15:10:55.610 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2025-03-24 15:10:56.445 [main] INFO  o.s.b.a.e.w.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-03-24 15:10:56.515 [main] INFO  o.a.c.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2025-03-24 15:10:56.537 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2025-03-24 15:10:56.554 [main] INFO  c.s.SecondHand1Application - Started SecondHand1Application in 4.631 seconds (process running for 5.542)
+2025-03-24 15:10:56.910 [RMI TCP Connection(3)-10.9.81.232] INFO  o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [localhost:5672]
+2025-03-24 15:10:56.910 [RMI TCP Connection(2)-10.9.81.232] INFO  o.a.c.c.C.[.[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-24 15:10:56.911 [RMI TCP Connection(2)-10.9.81.232] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-03-24 15:10:56.913 [RMI TCP Connection(2)-10.9.81.232] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 1 ms
+2025-03-24 15:10:57.091 [RMI TCP Connection(3)-10.9.81.232] INFO  o.s.a.r.c.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#698e1bf5:0/SimpleConnection@1b0fb48e [delegate=amqp://guest@127.0.0.1:5672/, localPort=55977]
+2025-03-24 15:21:35.586 [SpringApplicationShutdownHook] INFO  c.a.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-03-24 15:21:35.592 [SpringApplicationShutdownHook] INFO  c.a.druid.pool.DruidDataSource - {dataSource-1} closed
+2025-03-24 15:21:40.006 [background-preinit] INFO  o.h.v.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-03-24 15:21:40.056 [main] INFO  c.s.SecondHand1Application - Starting SecondHand1Application using Java 19.0.2 with PID 4352 (C:\Users\LENOVO\JavaProject1\second_hand\second_hand1\target\classes started by LENOVO in C:\Users\LENOVO\JavaProject1\second_hand)
+2025-03-24 15:21:40.056 [main] INFO  c.s.SecondHand1Application - No active profile set, falling back to 1 default profile: "default"
+2025-03-24 15:21:41.687 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2025-03-24 15:21:41.690 [main] INFO  o.a.c.c.AprLifecycleListener - An older version [1.3.1] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.5]
+2025-03-24 15:21:41.690 [main] INFO  o.a.c.c.AprLifecycleListener - Loaded Apache Tomcat Native library [1.3.1] using APR version [1.7.4].
+2025-03-24 15:21:41.694 [main] INFO  o.a.c.c.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2025-03-24 15:21:41.701 [main] INFO  o.a.c.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2025-03-24 15:21:41.705 [main] INFO  o.a.c.core.StandardService - Starting service [Tomcat]
+2025-03-24 15:21:41.705 [main] INFO  o.a.c.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2025-03-24 15:21:41.775 [main] INFO  o.a.c.c.C.[.[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-03-24 15:21:41.776 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1681 ms
+2025-03-24 15:21:42.147 [main] INFO  c.a.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-03-24 15:21:42.551 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2025-03-24 15:21:43.271 [main] INFO  o.s.b.a.e.w.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-03-24 15:21:43.325 [main] INFO  o.a.c.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2025-03-24 15:21:43.340 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2025-03-24 15:21:43.352 [main] INFO  c.s.SecondHand1Application - Started SecondHand1Application in 3.817 seconds (process running for 4.428)
+2025-03-24 15:21:43.629 [RMI TCP Connection(1)-10.9.81.232] INFO  o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [localhost:5672]
+2025-03-24 15:21:43.653 [RMI TCP Connection(3)-10.9.81.232] INFO  o.a.c.c.C.[.[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-24 15:21:43.654 [RMI TCP Connection(3)-10.9.81.232] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-03-24 15:21:43.655 [RMI TCP Connection(3)-10.9.81.232] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 1 ms
+2025-03-24 15:21:43.697 [RMI TCP Connection(1)-10.9.81.232] INFO  o.s.a.r.c.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#1a1f22f2:0/SimpleConnection@72fd890f [delegate=amqp://guest@127.0.0.1:5672/, localPort=56409]
+2025-03-24 15:25:28.173 [SpringApplicationShutdownHook] INFO  c.a.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-03-24 15:25:28.175 [SpringApplicationShutdownHook] INFO  c.a.druid.pool.DruidDataSource - {dataSource-1} closed
+2025-03-24 15:25:32.171 [background-preinit] INFO  o.h.v.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-03-24 15:25:32.214 [main] INFO  c.s.SecondHand1Application - Starting SecondHand1Application using Java 19.0.2 with PID 18820 (C:\Users\LENOVO\JavaProject1\second_hand\second_hand1\target\classes started by LENOVO in C:\Users\LENOVO\JavaProject1\second_hand)
+2025-03-24 15:25:32.215 [main] INFO  c.s.SecondHand1Application - No active profile set, falling back to 1 default profile: "default"
+2025-03-24 15:25:33.899 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2025-03-24 15:25:33.902 [main] INFO  o.a.c.c.AprLifecycleListener - An older version [1.3.1] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.5]
+2025-03-24 15:25:33.902 [main] INFO  o.a.c.c.AprLifecycleListener - Loaded Apache Tomcat Native library [1.3.1] using APR version [1.7.4].
+2025-03-24 15:25:33.909 [main] INFO  o.a.c.c.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2025-03-24 15:25:33.917 [main] INFO  o.a.c.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2025-03-24 15:25:33.924 [main] INFO  o.a.c.core.StandardService - Starting service [Tomcat]
+2025-03-24 15:25:33.925 [main] INFO  o.a.c.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2025-03-24 15:25:34.023 [main] INFO  o.a.c.c.C.[.[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-03-24 15:25:34.023 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1770 ms
+2025-03-24 15:25:34.451 [main] INFO  c.a.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-03-24 15:25:34.857 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2025-03-24 15:25:35.566 [main] INFO  o.s.b.a.e.w.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-03-24 15:25:35.622 [main] INFO  o.a.c.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2025-03-24 15:25:35.637 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2025-03-24 15:25:35.651 [main] INFO  c.s.SecondHand1Application - Started SecondHand1Application in 3.94 seconds (process running for 4.533)
+2025-03-24 15:25:35.816 [RMI TCP Connection(1)-10.9.81.232] INFO  o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [localhost:5672]
+2025-03-24 15:25:35.817 [RMI TCP Connection(3)-10.9.81.232] INFO  o.a.c.c.C.[.[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-24 15:25:35.818 [RMI TCP Connection(3)-10.9.81.232] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-03-24 15:25:35.820 [RMI TCP Connection(3)-10.9.81.232] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 1 ms
+2025-03-24 15:25:35.880 [RMI TCP Connection(1)-10.9.81.232] INFO  o.s.a.r.c.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#44e7c06b:0/SimpleConnection@a942767 [delegate=amqp://guest@127.0.0.1:5672/, localPort=56510]
+2025-03-24 20:54:10.824 [SpringApplicationShutdownHook] INFO  c.a.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-03-24 20:54:10.843 [SpringApplicationShutdownHook] INFO  c.a.druid.pool.DruidDataSource - {dataSource-1} closed
+2025-03-24 20:54:15.330 [background-preinit] INFO  o.h.v.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-03-24 20:54:15.375 [main] INFO  c.s.SecondHand1Application - Starting SecondHand1Application using Java 19.0.2 with PID 14752 (C:\Users\LENOVO\JavaProject1\second_hand\second_hand1\target\classes started by LENOVO in C:\Users\LENOVO\JavaProject1\second_hand)
+2025-03-24 20:54:15.376 [main] INFO  c.s.SecondHand1Application - No active profile set, falling back to 1 default profile: "default"
+2025-03-24 20:54:17.316 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2025-03-24 20:54:17.319 [main] INFO  o.a.c.c.AprLifecycleListener - An older version [1.3.1] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.5]
+2025-03-24 20:54:17.319 [main] INFO  o.a.c.c.AprLifecycleListener - Loaded Apache Tomcat Native library [1.3.1] using APR version [1.7.4].
+2025-03-24 20:54:17.323 [main] INFO  o.a.c.c.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2025-03-24 20:54:17.332 [main] INFO  o.a.c.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2025-03-24 20:54:17.335 [main] INFO  o.a.c.core.StandardService - Starting service [Tomcat]
+2025-03-24 20:54:17.336 [main] INFO  o.a.c.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2025-03-24 20:54:17.416 [main] INFO  o.a.c.c.C.[.[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-03-24 20:54:17.416 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1997 ms
+2025-03-24 20:54:17.886 [main] INFO  c.a.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-03-24 20:54:18.381 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2025-03-24 20:54:19.229 [main] INFO  o.s.b.a.e.w.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-03-24 20:54:19.311 [main] INFO  o.a.c.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2025-03-24 20:54:19.332 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2025-03-24 20:54:19.345 [main] INFO  c.s.SecondHand1Application - Started SecondHand1Application in 4.528 seconds (process running for 5.222)
+2025-03-24 20:54:19.899 [RMI TCP Connection(3)-10.9.81.232] INFO  o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [localhost:5672]
+2025-03-24 20:54:19.917 [RMI TCP Connection(4)-10.9.81.232] INFO  o.a.c.c.C.[.[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-24 20:54:19.917 [RMI TCP Connection(4)-10.9.81.232] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-03-24 20:54:19.918 [RMI TCP Connection(4)-10.9.81.232] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 1 ms
+2025-03-24 20:54:19.954 [RMI TCP Connection(3)-10.9.81.232] INFO  o.s.a.r.c.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#24a807a9:0/SimpleConnection@14d9dd7a [delegate=amqp://guest@127.0.0.1:5672/, localPort=60158]
+2025-03-24 21:04:04.875 [SpringApplicationShutdownHook] INFO  c.a.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-03-24 21:04:04.881 [SpringApplicationShutdownHook] INFO  c.a.druid.pool.DruidDataSource - {dataSource-1} closed
+2025-03-24 21:04:08.548 [background-preinit] INFO  o.h.v.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-03-24 21:04:08.592 [main] INFO  c.s.SecondHand1Application - Starting SecondHand1Application using Java 19.0.2 with PID 9636 (C:\Users\LENOVO\JavaProject1\second_hand\second_hand1\target\classes started by LENOVO in C:\Users\LENOVO\JavaProject1\second_hand)
+2025-03-24 21:04:08.592 [main] INFO  c.s.SecondHand1Application - No active profile set, falling back to 1 default profile: "default"
+2025-03-24 21:04:10.226 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2025-03-24 21:04:10.229 [main] INFO  o.a.c.c.AprLifecycleListener - An older version [1.3.1] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.5]
+2025-03-24 21:04:10.230 [main] INFO  o.a.c.c.AprLifecycleListener - Loaded Apache Tomcat Native library [1.3.1] using APR version [1.7.4].
+2025-03-24 21:04:10.234 [main] INFO  o.a.c.c.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2025-03-24 21:04:10.242 [main] INFO  o.a.c.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2025-03-24 21:04:10.245 [main] INFO  o.a.c.core.StandardService - Starting service [Tomcat]
+2025-03-24 21:04:10.245 [main] INFO  o.a.c.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2025-03-24 21:04:10.327 [main] INFO  o.a.c.c.C.[.[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-03-24 21:04:10.328 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1699 ms
+2025-03-24 21:04:10.730 [main] INFO  c.a.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-03-24 21:04:11.150 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2025-03-24 21:04:11.909 [main] INFO  o.s.b.a.e.w.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-03-24 21:04:11.964 [main] INFO  o.a.c.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2025-03-24 21:04:11.980 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2025-03-24 21:04:11.996 [main] INFO  c.s.SecondHand1Application - Started SecondHand1Application in 3.948 seconds (process running for 4.594)
+2025-03-24 21:04:12.633 [RMI TCP Connection(2)-10.9.81.232] INFO  o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [localhost:5672]
+2025-03-24 21:04:12.633 [RMI TCP Connection(3)-10.9.81.232] INFO  o.a.c.c.C.[.[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-24 21:04:12.633 [RMI TCP Connection(3)-10.9.81.232] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-03-24 21:04:12.635 [RMI TCP Connection(3)-10.9.81.232] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 2 ms
+2025-03-24 21:04:12.706 [RMI TCP Connection(2)-10.9.81.232] INFO  o.s.a.r.c.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#558575fe:0/SimpleConnection@47356e14 [delegate=amqp://guest@127.0.0.1:5672/, localPort=62387]
+2025-03-24 21:20:58.644 [SpringApplicationShutdownHook] INFO  c.a.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-03-24 21:20:58.649 [SpringApplicationShutdownHook] INFO  c.a.druid.pool.DruidDataSource - {dataSource-1} closed
+2025-03-24 21:21:03.030 [background-preinit] INFO  o.h.v.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-03-24 21:21:03.092 [main] INFO  c.s.SecondHand1Application - Starting SecondHand1Application using Java 19.0.2 with PID 18692 (C:\Users\LENOVO\JavaProject1\second_hand\second_hand1\target\classes started by LENOVO in C:\Users\LENOVO\JavaProject1\second_hand)
+2025-03-24 21:21:03.093 [main] INFO  c.s.SecondHand1Application - No active profile set, falling back to 1 default profile: "default"
+2025-03-24 21:21:05.262 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2025-03-24 21:21:05.265 [main] INFO  o.a.c.c.AprLifecycleListener - An older version [1.3.1] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.5]
+2025-03-24 21:21:05.265 [main] INFO  o.a.c.c.AprLifecycleListener - Loaded Apache Tomcat Native library [1.3.1] using APR version [1.7.4].
+2025-03-24 21:21:05.272 [main] INFO  o.a.c.c.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2025-03-24 21:21:05.280 [main] INFO  o.a.c.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2025-03-24 21:21:05.284 [main] INFO  o.a.c.core.StandardService - Starting service [Tomcat]
+2025-03-24 21:21:05.285 [main] INFO  o.a.c.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2025-03-24 21:21:05.363 [main] INFO  o.a.c.c.C.[.[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-03-24 21:21:05.363 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2215 ms
+2025-03-24 21:21:05.863 [main] INFO  c.a.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-03-24 21:21:06.610 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2025-03-24 21:21:07.466 [main] INFO  o.s.b.a.e.w.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-03-24 21:21:07.559 [main] INFO  o.a.c.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2025-03-24 21:21:07.578 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2025-03-24 21:21:07.594 [main] INFO  c.s.SecondHand1Application - Started SecondHand1Application in 5.25 seconds (process running for 5.91)
+2025-03-24 21:21:07.929 [RMI TCP Connection(3)-10.9.81.232] INFO  o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [localhost:5672]
+2025-03-24 21:21:07.930 [RMI TCP Connection(2)-10.9.81.232] INFO  o.a.c.c.C.[.[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-24 21:21:07.931 [RMI TCP Connection(2)-10.9.81.232] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-03-24 21:21:07.933 [RMI TCP Connection(2)-10.9.81.232] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 2 ms
+2025-03-24 21:21:07.995 [RMI TCP Connection(3)-10.9.81.232] INFO  o.s.a.r.c.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#aca594d:0/SimpleConnection@78326ac7 [delegate=amqp://guest@127.0.0.1:5672/, localPort=63203]
+2025-03-24 21:25:43.323 [SpringApplicationShutdownHook] INFO  c.a.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-03-24 21:25:43.329 [SpringApplicationShutdownHook] INFO  c.a.druid.pool.DruidDataSource - {dataSource-1} closed
+2025-03-24 21:25:47.160 [background-preinit] INFO  o.h.v.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-03-24 21:25:47.206 [main] INFO  c.s.SecondHand1Application - Starting SecondHand1Application using Java 19.0.2 with PID 23420 (C:\Users\LENOVO\JavaProject1\second_hand\second_hand1\target\classes started by LENOVO in C:\Users\LENOVO\JavaProject1\second_hand)
+2025-03-24 21:25:47.207 [main] INFO  c.s.SecondHand1Application - No active profile set, falling back to 1 default profile: "default"
+2025-03-24 21:25:49.017 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2025-03-24 21:25:49.019 [main] INFO  o.a.c.c.AprLifecycleListener - An older version [1.3.1] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.5]
+2025-03-24 21:25:49.019 [main] INFO  o.a.c.c.AprLifecycleListener - Loaded Apache Tomcat Native library [1.3.1] using APR version [1.7.4].
+2025-03-24 21:25:49.024 [main] INFO  o.a.c.c.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2025-03-24 21:25:49.031 [main] INFO  o.a.c.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2025-03-24 21:25:49.035 [main] INFO  o.a.c.core.StandardService - Starting service [Tomcat]
+2025-03-24 21:25:49.036 [main] INFO  o.a.c.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2025-03-24 21:25:49.107 [main] INFO  o.a.c.c.C.[.[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-03-24 21:25:49.108 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1859 ms
+2025-03-24 21:25:49.485 [main] INFO  c.a.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-03-24 21:25:49.899 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2025-03-24 21:25:50.607 [main] INFO  o.s.b.a.e.w.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-03-24 21:25:50.689 [main] INFO  o.a.c.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2025-03-24 21:25:50.704 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2025-03-24 21:25:50.718 [main] INFO  c.s.SecondHand1Application - Started SecondHand1Application in 4.067 seconds (process running for 4.699)
+2025-03-24 21:25:51.281 [RMI TCP Connection(2)-10.9.81.232] INFO  o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [localhost:5672]
+2025-03-24 21:25:51.308 [RMI TCP Connection(1)-10.9.81.232] INFO  o.a.c.c.C.[.[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-24 21:25:51.308 [RMI TCP Connection(1)-10.9.81.232] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-03-24 21:25:51.310 [RMI TCP Connection(1)-10.9.81.232] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 1 ms
+2025-03-24 21:25:51.348 [RMI TCP Connection(2)-10.9.81.232] INFO  o.s.a.r.c.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#7a78d2aa:0/SimpleConnection@6971314d [delegate=amqp://guest@127.0.0.1:5672/, localPort=63467]
+2025-03-24 21:27:11.420 [SpringApplicationShutdownHook] INFO  c.a.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-03-24 21:27:11.425 [SpringApplicationShutdownHook] INFO  c.a.druid.pool.DruidDataSource - {dataSource-1} closed
+2025-03-24 21:27:15.337 [background-preinit] INFO  o.h.v.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-03-24 21:27:15.385 [main] INFO  c.s.SecondHand1Application - Starting SecondHand1Application using Java 19.0.2 with PID 11320 (C:\Users\LENOVO\JavaProject1\second_hand\second_hand1\target\classes started by LENOVO in C:\Users\LENOVO\JavaProject1\second_hand)
+2025-03-24 21:27:15.385 [main] INFO  c.s.SecondHand1Application - No active profile set, falling back to 1 default profile: "default"
+2025-03-24 21:27:17.045 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2025-03-24 21:27:17.047 [main] INFO  o.a.c.c.AprLifecycleListener - An older version [1.3.1] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.5]
+2025-03-24 21:27:17.047 [main] INFO  o.a.c.c.AprLifecycleListener - Loaded Apache Tomcat Native library [1.3.1] using APR version [1.7.4].
+2025-03-24 21:27:17.052 [main] INFO  o.a.c.c.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2025-03-24 21:27:17.059 [main] INFO  o.a.c.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2025-03-24 21:27:17.063 [main] INFO  o.a.c.core.StandardService - Starting service [Tomcat]
+2025-03-24 21:27:17.063 [main] INFO  o.a.c.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2025-03-24 21:27:17.136 [main] INFO  o.a.c.c.C.[.[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-03-24 21:27:17.137 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1712 ms
+2025-03-24 21:27:17.489 [main] INFO  c.a.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-03-24 21:27:17.869 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2025-03-24 21:27:18.612 [main] INFO  o.s.b.a.e.w.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-03-24 21:27:18.694 [main] INFO  o.a.c.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2025-03-24 21:27:18.710 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2025-03-24 21:27:18.723 [main] INFO  c.s.SecondHand1Application - Started SecondHand1Application in 3.907 seconds (process running for 4.545)
+2025-03-24 21:27:18.904 [RMI TCP Connection(2)-10.9.81.232] INFO  o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [localhost:5672]
+2025-03-24 21:27:18.906 [RMI TCP Connection(1)-10.9.81.232] INFO  o.a.c.c.C.[.[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-24 21:27:18.906 [RMI TCP Connection(1)-10.9.81.232] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-03-24 21:27:18.907 [RMI TCP Connection(1)-10.9.81.232] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 1 ms
+2025-03-24 21:27:18.964 [RMI TCP Connection(2)-10.9.81.232] INFO  o.s.a.r.c.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#2175d53f:0/SimpleConnection@576ed9e3 [delegate=amqp://guest@127.0.0.1:5672/, localPort=63568]
+2025-03-24 21:54:12.411 [SpringApplicationShutdownHook] INFO  c.a.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-03-24 21:54:12.413 [SpringApplicationShutdownHook] INFO  c.a.druid.pool.DruidDataSource - {dataSource-1} closed
+2025-03-24 21:54:33.286 [background-preinit] INFO  o.h.v.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-03-24 21:54:33.332 [main] INFO  c.s.SecondHand1Application - Starting SecondHand1Application using Java 19.0.2 with PID 20280 (C:\Users\LENOVO\JavaProject1\second_hand\second_hand1\target\classes started by LENOVO in C:\Users\LENOVO\JavaProject1\second_hand)
+2025-03-24 21:54:33.333 [main] INFO  c.s.SecondHand1Application - No active profile set, falling back to 1 default profile: "default"
+2025-03-24 21:54:35.071 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2025-03-24 21:54:35.074 [main] INFO  o.a.c.c.AprLifecycleListener - An older version [1.3.1] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.5]
+2025-03-24 21:54:35.074 [main] INFO  o.a.c.c.AprLifecycleListener - Loaded Apache Tomcat Native library [1.3.1] using APR version [1.7.4].
+2025-03-24 21:54:35.079 [main] INFO  o.a.c.c.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2025-03-24 21:54:35.086 [main] INFO  o.a.c.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2025-03-24 21:54:35.089 [main] INFO  o.a.c.core.StandardService - Starting service [Tomcat]
+2025-03-24 21:54:35.090 [main] INFO  o.a.c.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2025-03-24 21:54:35.169 [main] INFO  o.a.c.c.C.[.[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-03-24 21:54:35.169 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1796 ms
+2025-03-24 21:54:35.549 [main] INFO  c.a.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-03-24 21:54:35.966 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2025-03-24 21:54:36.792 [main] INFO  o.s.b.a.e.w.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-03-24 21:54:36.876 [main] INFO  o.a.c.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2025-03-24 21:54:36.891 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2025-03-24 21:54:36.903 [main] INFO  c.s.SecondHand1Application - Started SecondHand1Application in 4.111 seconds (process running for 4.787)
+2025-03-24 21:54:37.360 [RMI TCP Connection(1)-10.9.81.232] INFO  o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [localhost:5672]
+2025-03-24 21:54:37.361 [RMI TCP Connection(3)-10.9.81.232] INFO  o.a.c.c.C.[.[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-24 21:54:37.361 [RMI TCP Connection(3)-10.9.81.232] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-03-24 21:54:37.363 [RMI TCP Connection(3)-10.9.81.232] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 2 ms
+2025-03-24 21:54:37.457 [RMI TCP Connection(1)-10.9.81.232] INFO  o.s.a.r.c.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#5eff5e4c:0/SimpleConnection@559d242d [delegate=amqp://guest@127.0.0.1:5672/, localPort=65232]
+2025-03-24 21:58:40.945 [SpringApplicationShutdownHook] INFO  c.a.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-03-24 21:58:40.947 [SpringApplicationShutdownHook] INFO  c.a.druid.pool.DruidDataSource - {dataSource-1} closed
+2025-03-24 21:58:45.911 [background-preinit] INFO  o.h.v.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-03-24 21:58:45.958 [main] INFO  c.s.SecondHand1Application - Starting SecondHand1Application using Java 19.0.2 with PID 20944 (C:\Users\LENOVO\JavaProject1\second_hand\second_hand1\target\classes started by LENOVO in C:\Users\LENOVO\JavaProject1\second_hand)
+2025-03-24 21:58:45.958 [main] INFO  c.s.SecondHand1Application - No active profile set, falling back to 1 default profile: "default"
+2025-03-24 21:58:47.620 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2025-03-24 21:58:47.622 [main] INFO  o.a.c.c.AprLifecycleListener - An older version [1.3.1] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.5]
+2025-03-24 21:58:47.623 [main] INFO  o.a.c.c.AprLifecycleListener - Loaded Apache Tomcat Native library [1.3.1] using APR version [1.7.4].
+2025-03-24 21:58:47.629 [main] INFO  o.a.c.c.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2025-03-24 21:58:47.637 [main] INFO  o.a.c.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2025-03-24 21:58:47.640 [main] INFO  o.a.c.core.StandardService - Starting service [Tomcat]
+2025-03-24 21:58:47.641 [main] INFO  o.a.c.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2025-03-24 21:58:47.718 [main] INFO  o.a.c.c.C.[.[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-03-24 21:58:47.718 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1725 ms
+2025-03-24 21:58:48.112 [main] INFO  c.a.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-03-24 21:58:48.519 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2025-03-24 21:58:49.229 [main] INFO  o.s.b.a.e.w.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-03-24 21:58:49.307 [main] INFO  o.a.c.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2025-03-24 21:58:49.323 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2025-03-24 21:58:49.335 [main] INFO  c.s.SecondHand1Application - Started SecondHand1Application in 3.905 seconds (process running for 4.536)
+2025-03-24 21:58:49.544 [RMI TCP Connection(3)-10.9.81.232] INFO  o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [localhost:5672]
+2025-03-24 21:58:49.574 [RMI TCP Connection(4)-10.9.81.232] INFO  o.a.c.c.C.[.[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-24 21:58:49.574 [RMI TCP Connection(4)-10.9.81.232] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-03-24 21:58:49.575 [RMI TCP Connection(4)-10.9.81.232] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 1 ms
+2025-03-24 21:58:49.615 [RMI TCP Connection(3)-10.9.81.232] INFO  o.s.a.r.c.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#7b6854b5:0/SimpleConnection@7fe3f338 [delegate=amqp://guest@127.0.0.1:5672/, localPort=49237]
+2025-03-24 22:29:17.110 [SpringApplicationShutdownHook] INFO  c.a.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-03-24 22:29:17.113 [SpringApplicationShutdownHook] INFO  c.a.druid.pool.DruidDataSource - {dataSource-1} closed

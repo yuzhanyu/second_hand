@@ -1,0 +1,8 @@
+CREATE TABLE logs (
+	log_id INT PRIMARY KEY AUTO_INCREMENT COMMENT '日志ID',
+	user_id INT COMMENT '用户ID',
+	merchant_id INT COMMENT '商家ID',
+	action VARCHAR(100) NOT NULL COMMENT '操作行为',
+	details TEXT COMMENT '操作详情',
+	create_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间'
+) COMMENT '系统日志表';

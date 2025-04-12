@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.secondhand1.dao.ShoppingCartMapper">
+<select id="selectByUserId" parameterType="int" resultType="com.secondhand1.pojo.domain.ShoppingCartDO">
+        SELECT cart_id, user_id, product_id, quantity, create_time, update_time
+        FROM shopping_carts
+        WHERE user_id = #{userId}
+    </select>
+<select id="selectByUserIdAndProductId" parameterType="int" resultType="com.secondhand1.pojo.domain.ShoppingCartDO">
+        SELECT cart_id, user_id, product_id, quantity, create_time, update_time
+        FROM shopping_carts
+        WHERE user_id = #{userId}
+        AND product_id = #{productId}
+    </select>
+<delete id="deleteById" parameterType="int">
+        DELETE FROM shopping_carts
+        WHERE cart_id = #{cartId}
+    </delete>
+<insert id="insert" parameterType="com.secondhand1.pojo.domain.ShoppingCartDO">
+        INSERT INTO shopping_carts (user_id, product_id, quantity, create_time, update_time)
+        VALUES (#{userId}, #{productId}, #{quantity}, #{createTime}, #{updateTime})
+    </insert>
+<update id="updateById" parameterType="com.secondhand1.pojo.domain.ShoppingCartDO">
+        UPDATE shopping_carts
+        SET quantity = #{quantity}, update_time = #{updateTime}
+        WHERE cart_id = #{cartId}
+    </update>
+<delete id="deleteByUserId" parameterType="int">
+        DELETE FROM shopping_carts
+        WHERE user_id = #{userId}
+    </delete>
+</mapper>

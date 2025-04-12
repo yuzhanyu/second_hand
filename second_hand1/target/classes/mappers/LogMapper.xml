@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.secondhand1.dao.LogMapper">
+    
+    <select id="selectByUserId" parameterType="java.lang.Integer" resultType="com.secondhand1.pojo.domain.LogDO">
+        SELECT log_id, user_id, merchant_id, action, details, create_time
+        FROM logs
+        WHERE user_id = #{userId}
+    </select>
+
+    
+    <select id="selectByMerchantId" parameterType="java.lang.Integer" resultType="com.secondhand1.pojo.domain.LogDO">
+        SELECT log_id, user_id, merchant_id, action, details, create_time
+        FROM logs
+        WHERE merchant_id = #{merchantId}
+    </select>
+
+    
+    <select id="selectAll" resultType="com.secondhand1.pojo.domain.LogDO">
+        SELECT log_id, user_id, merchant_id, action, details, create_time
+        FROM logs
+    </select>
+
+    
+    <select id="selectById" parameterType="java.lang.Long" resultType="com.secondhand1.pojo.domain.LogDO">
+        SELECT log_id, user_id, merchant_id, action, details, create_time
+        FROM logs
+        WHERE log_id = #{logId}
+    </select>
+</mapper>

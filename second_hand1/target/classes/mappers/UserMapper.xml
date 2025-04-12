@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.secondhand1.dao.UserMapper">
+<select id="selectByUsername" parameterType="String" resultType="com.secondhand1.pojo.domain.UserDO">
+        SELECT user_id, username, password_hash, email, phone, address, status, create_by, create_time, update_by, update_time, reset_token
+        FROM users WHERE username = #{username}
+    </select>
+<select id="selectByEmail" parameterType="String" resultType="com.secondhand1.pojo.domain.UserDO">
+        SELECT user_id, username, password_hash, email, phone, address, status, create_by, create_time, update_by, update_time, reset_token
+        FROM users WHERE email = #{email}
+    </select>
+<select id="selectByResetToken" parameterType="String" resultType="com.secondhand1.pojo.domain.UserDO">
+        SELECT user_id, username, password_hash, email, phone, address, status, create_by, create_time, update_by, update_time, reset_token
+        FROM users WHERE reset_token = #{resetToken}
+    </select>
+<select id="selectByUsernameOrEmail" parameterType="String" resultType="com.secondhand1.pojo.domain.UserDO">
+        SELECT user_id, username, password_hash, email, phone, address, status, create_by, create_time, update_by, update_time, reset_token
+        FROM users WHERE username = #{usernameOrEmail} OR email = #{usernameOrEmail}
+    </select>
+<delete id="deleteById" parameterType="Integer">
+        DELETE FROM users WHERE user_id = #{userId}
+    </delete>
+<insert id="insert" parameterType="com.secondhand1.pojo.domain.UserDO">
+        INSERT INTO users (username, password_hash, email, phone, address, status, create_by, create_time, update_by, update_time, reset_token)
+        VALUES (#{username}, #{passwordHash}, #{email}, #{phone}, #{address}, #{status}, #{createBy}, #{createTime}, #{updateBy}, #{updateTime}, #{resetToken})
+    </insert>
+<select id="isEmailUsedByOtherUser" parameterType="map" resultType="java.lang.Boolean">
+        SELECT IF(COUNT(*) &gt; 0, TRUE, FALSE) AS isUsed
+        FROM users
+        WHERE email = #{email}
+          AND user_id != #{userId}
+    </select>
+<select id="selectById" parameterType="Integer" resultType="com.secondhand1.pojo.domain.UserDO">
+        SELECT user_id, username, password_hash, email, phone, address, status, create_by, create_time, update_by, update_time, reset_token
+        FROM users WHERE user_id = #{userId}
+    </select>
+<update id="updateById" parameterType="com.secondhand1.pojo.domain.UserDO">
+        UPDATE users
+        SET username = #{username},
+            password_hash = #{passwordHash},
+            email = #{email},
+            phone = #{phone},
+            address = #{address},
+            status = #{status},
+            update_by = #{updateBy},
+            update_time = #{updateTime},
+            reset_token = #{resetToken}
+        WHERE user_id = #{userId}
+    </update>
+    <update id="updateById1" parameterType="com.secondhand1.pojo.domain.UserDO">
+        UPDATE users
+        SET username = #{username},
+            email = #{email},
+            phone = #{phone},
+            address = #{address},
+            status = #{status},
+            update_by = #{updateBy}
+        WHERE user_id = #{userId}
+    </update>
+</mapper>

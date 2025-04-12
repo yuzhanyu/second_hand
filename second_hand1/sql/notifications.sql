@@ -1,0 +1,8 @@
+CREATE TABLE notifications (
+	notification_id INT PRIMARY KEY AUTO_INCREMENT COMMENT '通知ID',
+	user_id INT COMMENT '用户ID',
+	message TEXT NOT NULL COMMENT '通知内容',
+	status ENUM('unread', 'read') DEFAULT 'unread' COMMENT '通知状态',
+	create_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
+	update_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '修改时间'
+) COMMENT '通知信息表';
